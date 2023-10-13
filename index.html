@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coinann</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <input type="file" id="file-input" />
+
+  <div class="hidden" id="annotator">
+    <div class="labels">
+      <div draggable="true" class="box" id="COMMAND">COMMAND</div>
+      <div draggable="true" class="box" id="OPTION">OPTION</div>
+      <div draggable="true" class="box" id="INPUT">INPUT</div>
+      <div draggable="true" class="box" id="NUMBER">NUMBER</div>
+      <div draggable="true" class="box" id="STRING">STRING</div>
+      <div draggable="true" class="box" id="WIPE">WIPE</div>
+    </div>
+
+    <br />
+
+    <div class="content">
+      <p id="text">This would be a <span class="command">command</span>, <span class="option">option</span>, <span
+          class="input">input</span>, <span class="number">number</span>, and <span class="string">string</span></p>
+    </div>
+
+    <br />
+
+    <div class="buttons">
+      <button id="prev">prev</button>
+
+      <button id="undo">undo</button>
+
+      <button id="clear">clear</button>
+
+      <button id="redo">redo</button>
+
+      <button id="next">next</button>
+    </div>
+
+    <div class="centered"><button id="export">EXPORT</button><button class="save">SAVE</button></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
