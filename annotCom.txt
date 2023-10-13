@@ -1,0 +1,22 @@
+-- this is a commented version of annot.txt
+-- this is done for my sanity. Please train off annot.txt
+
+-- testing coinann
+[Turn](COMMAND) [on](INPUT) the [lights](OPTION) in the [living room](STRING)
+[Turn](COMMAND) [on](INPUT) the [lights](OPTION) in the [kitchen](STRING).
+[Play](COMMAND) some [relaxing](STRING) [music](OPTION) on the [speaker](INPUT).
+[Set](COMMAND) the [thermostat](OPTION) to [72](NUMBER) [degrees](INPUT).
+[Dim](COMMAND) the [lights](OPTION) in the [living room](STRING).
+[Close](COMMAND) the [garage door](STRING).
+[Play](COMMAND) the [latest episode](INPUT) of [The Daily](STRING).
+[How's](COMMAND) the [weather](OPTION) [today](INPUT)?
+
+-- set, timer
+Please [set](COMMAND) me a [timer](OPTION) for [30](NUMBER) [minutes](INPUT).
+Please can you [set](COMMAND) me a [30](NUMBER) [minute](INPUT) [timer](OPTION).
+Will you [set](COMMAND) a [20](NUMBER) [hour](INPUT) [timer](OPTION).
+Will you [set](COMMAND) a [timer](OPTION) for [30](NUMBER) [seconds](INPUT).
+Will you please [set](COMMAND) a [15](NUMBER) [minute](INPUT) [timer](OPTION)?
+Will you please [set](COMMAND) a [timer](OPTION) for [20](NUMBER) [minutes](INPUT)?
+[Set](COMMAND) a [timer](COMMAND) for [120](NUMBER) [seconds](INPUT).
+[Set](COMMAND) a [15](NUMBER) [minute](INPUT) [timer](OPTION).
